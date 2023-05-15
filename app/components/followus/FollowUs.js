@@ -1,5 +1,3 @@
-import './followus.css'
-
 const FollowUs = () => {
   return <div>FollowUs</div>
 }

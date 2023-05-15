@@ -7,7 +7,6 @@
   outline: none;
   list-style: none;
   text-decoration: none;
-  overflow-x: hidden;
 }
 
 :root {
@@ -26,6 +25,7 @@
 body {
   background: var(--color-background);
   line-height: 1.2;
+  overflow-x: hidden;
 }
 
 .container {
@@ -67,4 +67,45 @@ p {
 
 small {
   font-size: 1rem;
+}
+
+span {
+  font-size: 1rem;
+}
+
+/* ====================ANIMATED CIRCLE 1 */
+/* ===================END ANIMATED CIRCLE */
+
+/* ===================GENERAL BUTTON STYLE */
+.button {
+  width: 12rem;
+  height: 4.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 100px / 30px;
+  background: var(--color-black);
+  transform: rotate(-10deg);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.generalBtn {
+  width: 11.92rem;
+  height: 4.41rem;
+  font-size: 2rem;
+  color: var(--color-black);
+  text-transform: capitalize;
+  font-family: var(--font-exo);
+  border-radius: 100px /30px;
+  background: var(--color-white);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.button {
+  transform: rotate(-12deg);
+}
+
+.generalBtn:hover {
+  color: var(--color-orange);
 }

@@ -1,5 +1,3 @@
-import './stylish.css'
-
 const Stylish = () => {
   return <div>Stylish</div>
 }

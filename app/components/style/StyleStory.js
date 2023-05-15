@@ -1,5 +1,3 @@
-import './style.css'
-
 const StyleStory = () => {
   return <div>StyleStory</div>
 }
